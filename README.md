@@ -118,7 +118,7 @@ List of image derived phenotypes for AInSights
         * Complexity
         * Contrast
         * Strength
-* SimpleITK
+* SimpleITK - originally based on [this](https://www.insight-journal.org/browse/publication/176),but additional metrics have been added
     * intensity
         * Mean
         * Minimum
