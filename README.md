@@ -1,7 +1,7 @@
 # AInSights-IDP
 List of image derived phenotypes for AInSights
 
-* pyradiomics
+* pyradiomics - full details may be found [here](https://pyradiomics.readthedocs.io/en/latest/features.html)
     * shape
         * Elongation
         * Flatness
