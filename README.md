@@ -2,22 +2,8 @@
 List of image derived phenotypes for AInSights
 
 * pyradiomics - full details may be found [here](https://pyradiomics.readthedocs.io/en/latest/features.html)
-    * shape
-        * Elongation
-        * Flatness
-        * Least Axis Length
-        * Major Axis Length
-        * Maximum2DDiameterColumn
-        * Maximum2DDiameterRow
-        * Maximum2DDiameterSlice
-        * Maximum3DDiameter
-        * MeshVolume
-        * MinorAxisLength
-        * Sphericity
-        * SurfaceArea
-        * SurfaceVolumeRatio
-        * VoxelVolume
-    * first order
+
+    * First Order Statistics (first order)
         * 10Percentile
         * 90Percentile
         * Energy
@@ -36,9 +22,23 @@ List of image derived phenotypes for AInSights
         * TotalEnergy
         * Uniformity
         * Variance
-    * shape 
+    * Shape-based 3D (shape)
+        * Elongation
+        * Flatness
+        * Least Axis Length
+        * Major Axis Length
+        * Maximum2DDiameterColumn
+        * Maximum2DDiameterRow
+        * Maximum2DDiameterSlice
+        * Maximum3DDiameter
+        * MeshVolume
+        * MinorAxisLength
+        * Sphericity
+        * SurfaceArea
+        * SurfaceVolumeRatio
+        * VoxelVolume
         * OnBorder
-    * glcm
+    * Gray Level Co-occurance matrix (glcm)
         * Autocorrelation
         * ClusterProminence
         * ClusterShade
@@ -63,7 +63,7 @@ List of image derived phenotypes for AInSights
         * SumAverage
         * SumEntropy
         * SumSquares
-    * gldm
+    * Gray Level Dependence Matrix (gldm)
         * DependenceEntropy
         * DependenceNonUniformity
         * DependenceNonUniformityNormalized
@@ -78,7 +78,7 @@ List of image derived phenotypes for AInSights
         * SmallDependenceEmphasis
         * SmallDependenceHighGrayLevelEmphasis
         * SmallDependenceLowGrayLevelEmphasis
-    * glrlm
+    * Gray Level Run Length Matrix (glrlm)
         * GrayLevelNonUniformity
         * GrayLevelNonUniformityNormalized
         * GrayLevelVariance
@@ -95,7 +95,7 @@ List of image derived phenotypes for AInSights
         * ShortRunEmphasis
         * ShortRunHighGrayLevelEmphasis
         * ShortRunLowGrayLevelEmphasis
-    * glszm
+    * Gray Level Size Zone Matrix (glszm)
         * GrayLevelNonUniformity
         * GrayLevelNonUniformityNormalized
         * GrayLevelVariance
@@ -112,7 +112,7 @@ List of image derived phenotypes for AInSights
         * ZoneEntropy
         * ZonePercentage
         * ZoneVariance
-    * ngtdm
+    * Neighboring Gray Tone Difference Matrix (ngtdm)
         * Busyness
         * Coarseness
         * Complexity
